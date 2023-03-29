@@ -14,6 +14,8 @@ torch_geometric==2.0.4
 python==3.8.X
 ```
 
+Unzip PitfallsOfLabelPoisoningAttacksData.zip to extract the dataset files and poisoned labels for LafAK attack. Do this before executing the code.
+
 # Execute code using:
 ```
 python run.py --attack {random, degree, lp, lafak, MG} --model {GCN, GAT, APPNP} --dataset {cora_ml, citeseer, pubmed}  --setting {small_val, large_val, cv}
